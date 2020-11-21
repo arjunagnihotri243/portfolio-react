@@ -1,38 +1,75 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-main-left {
+  text-align: left;
+  padding-left: 15vh;
+  padding-top: 20vh;
+  font-size: xx-large;
+  color: #fff;
+  font-family: "Hum521Lt";
+  text-decoration: overline;
+}
+img {
+  border-radius: 50%;
+  background-color: rgb(240, 240, 240);
+  height: auto;
+  width: auto;
+}
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  width: 700px;
+  height: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.arrowContainer {
+  position: absolute;
+  top: 500px;
+  left: 650px;
+}
+.skillsContainer {
+  position: absolute;
+  top: 762px;
+}
+.skillsPageHeading {
+  text-align: left;
+  padding-left: 15vh;
+  padding-top: 20vh;
+  font-size: xx-large;
+  color: #fff;
+  font-family: "Hum521Lt";
+}
+.skillset {
+  background-color: rgb(254, 218, 211);
+  background-opacity: 25%;
+  width: 140vh;
+  color: red;
+  padding-left: 3vh;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.skillset h5 {
+  color: black;
+}
+.contactContainer {
+  position: absolute;
+  top: 3100px;
+}
+.gitHubIconHolder {
+  position: absolute;
+  top: 150px;
+  left: 350px;
+}
+.emailIconHolder {
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+.contactIconsContainer {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-self: center;
+  padding-left: 100vh;
 }

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+
+// Import images
+import Me from './images/1.png'
+
+// Import components
+import Home from './components/Home'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
+
+// Import icons
+import { FaArrowDown } from "react-icons/fa";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home />
+      <div className="skillsContainer">
+      <Skills />
+      </div>
+      <Contact />
     </div>
   );
 }
